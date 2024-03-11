@@ -1,13 +1,13 @@
-# Welcome to Odoo plugin Repository
+# Welcome to Odoo Plugin Repository
 # for [Chargily Pay](https://chargily.com/business/pay "Chargily Pay")™ Gateway - V2.
 
-Thank you for your interest in Odoo Plugin for Chargily Pay™, an open source project by Chargily, the leading fintech company in Algeria specializing in payment solutions and facilitating e-commerce, providing the easiest and free way to integrate e-payment API through EDAHABIA From Algeria Post and CIB from SATIM in your digital project.
+Thank you for your interest in Odoo Plugin of Chargily Pay™, an open source project by Chargily, a leading fintech company in Algeria specializing in payment solutions and  e-commerce facilitating, this Plugin is providing the easiest and free way to integrate e-payment API through widespread payment methods in Algeria such as EDAHABIA (Algerie Post) and CIB (SATIM) into your digital projects.
 
-This repository is **EMPTY!** it's open to contributions from developers like you.
+This repository is **EMPTY!** and is open to contributions from developers like you.
 
 ## About Chargily Pay™ packages
 
-Chargily Pay™ packages are a collection of open source projects published by Chargily to facilitate the integration of our payment gateway into different programming languages and frameworks. Our goal is to empower developers and businesses by providing easy-to-use tools to seamlessly accept payments.
+Chargily Pay™ packages/Plugins are a collection of open source projects published by Chargily to facilitate the integration of our payment gateway into different programming languages and frameworks. Our goal is to empower developers and businesses by providing easy-to-use tools to seamlessly accept payments.
 
 ## API Documentation
 

@@ -2,6 +2,7 @@
 # for [Chargily Pay](https://chargily.com/business/pay "Chargily Pay")™ Gateway - V2.
 
 Thank you for your interest in Odoo Plugin for Chargily Pay™, an open source project by Chargily, the leading fintech company in Algeria specializing in payment solutions and facilitating e-commerce, providing the easiest and free way to integrate e-payment API through EDAHABIA From Algeria Post and CIB from SATIM in your digital project.
+
 This repository is **EMPTY!** it's open to contributions from developers like you.
 
 ## About Chargily Pay™ packages

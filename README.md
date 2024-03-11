@@ -11,7 +11,7 @@ Chargily Pay™ packages are a collection of open source projects published by C
 
 ## API Documentation
 
-For detailed instructions on how to integrate with our API and utilize Chargily Pay™ in your projects, please refer to our [API Documentation](/introduction). 
+For detailed instructions on how to integrate with our API and utilize Chargily Pay™ in your projects, please refer to our [API Documentation](https://dev.chargily.com/pay-v2/introduction). 
 
 ## Developers Community
 

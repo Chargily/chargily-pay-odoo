@@ -64,12 +64,6 @@ class ChargilyController(http.Controller):
                                     invoice.action_post()  # Validate the invoice
                                     _logger.info(f"🧾 Invoice {invoice.name} created and posted for Order {order.name}")
 
-                                    # Register Payment on Invoice
-                                    if invoice.state == "posted" and invoice.payment_state != "paid":
-                                        tx_sudo._reconcile_after_done()  # This links the payment transaction to the invoice
-                                        _logger.info(
-                                            f"✅ Invoice {invoice.name} automatically paid via transaction {tx_sudo.reference}")
-
                     elif event_type in ["checkout.failed", "checkout.expired"]:
                         tx_sudo._set_error(state_message="Payment Failed")
                         _logger.info(f"❌ Transaction {reference} marked as FAILED")

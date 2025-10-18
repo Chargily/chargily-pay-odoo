@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_payment_provider_form" model="ir.ui.view">
+        <field name="name">payment.provider.form</field>
+        <field name="model">payment.provider</field>
+        <field name="inherit_id" ref="payment.payment_provider_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='provider_credentials']" position="inside">
+                <group >
+                    <field name="api_url"/>
+                    <field name="api_key" password="True"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+
+    <template id="redirect_form">
+        <form t-att-action="api_url" method="get">
+        </form>
+    </template>
+    
+</odoo>

@@ -8,5 +8,6 @@ class PaymentProvider(models.Model):
         selection_add=[('chargily', "Chargily")], ondelete={'chargily': 'set default'}
     )
 
-    api_url = fields.Char(string="Chargily API URL", default="https://pay.chargily.com/test/api/v2/checkouts")
+
+    api_url = fields.Char(string="Chargily API URL", default="https://pay.chargily.com/api/v2/checkouts")
     api_key = fields.Char(string="Chargily API Key", help="Enter your Chargily API Key")
